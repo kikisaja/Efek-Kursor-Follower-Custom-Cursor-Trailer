@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Cursor Trailer 🎯</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Elemen Kursor Custom (Hanya tampil di perangkat non-touch/desktop) -->
+    <div id="cursor-dot" class="cursor-dot"></div>
+    <div id="cursor-trailer" class="cursor-trailer"></div>
+
+    <div class="app-card">
+        <!-- Header -->
+        <header class="app-header">
+            <span class="badge">Custom Cursor Trailer</span>
+            <h1>✨ MOUSE TRAILER STUDIO</h1>
+            <p>Arahkan kursor ke area permainan atau hover ke elemen di bawah!</p>
+        </header>
+
+        <!-- Area Playground Interaktif -->
+        <section id="playground" class="playground-area">
+            <span class="playground-text">GESER MOUSE DI SINI</span>
+            <div class="target-box">HOVER AKU!</div>
+        </section>
+
+        <!-- Area Elemen Interaktif untuk Uji Efek Magnify/Hover -->
+        <div class="interactive-grid">
+            <button class="interactive-btn btn-yellow">TOMBOL A</button>
+            <button class="interactive-btn btn-pink">TOMBOL B</button>
+            <button class="interactive-btn btn-purple">TOMBOL C</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
